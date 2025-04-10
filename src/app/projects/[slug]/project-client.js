@@ -188,7 +188,7 @@ export default function ProjectClient({ project, nextProject, prevProject }) {
         </div>
 
         <div className="relative w-screen h-screen flex-center">
-          <h1 className="text-8xl">{project.title}</h1>
+          <h1 className="text-4xl md:text-8xl">{project.title}</h1>
 
           <p
             ref={projectDescriptionRef}
@@ -238,7 +238,7 @@ export default function ProjectClient({ project, nextProject, prevProject }) {
         </div>
 
         <div ref={footerRef} className="relative w-screen h-screen flex-center">
-          <h1 className="text-8xl">{nextProject.title}</h1>
+          <h1 className="text-4xl md:text-8xl">{nextProject.title}</h1>
 
           <div className="project-footer-copy absolute top-[35%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
             <p className="">Next Project</p>
