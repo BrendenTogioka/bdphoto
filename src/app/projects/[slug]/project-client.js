@@ -5,7 +5,8 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import ReactLenis from "@studio-freight/react-lenis";
+// import ReactLenis from "@studio-freight/react-lenis";
+import { ReactLenis } from "lenis/react";
 import { useRouter } from "next/navigation";
 
 export default function ProjectClient({ project, nextProject, prevProject }) {

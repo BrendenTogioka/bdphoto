@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Header from "./components/Header";
 import denali from "@/../public/images/denali.jpg";
 
 export default function Home() {
