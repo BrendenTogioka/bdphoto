@@ -5,7 +5,6 @@ import denali from "@/../public/images/denali.jpg";
 export default function Home() {
   return (
     <div className="relative ">
-      <Header />
       <div className="relative flex-center h-[90svh]">
         <h1 className="relative text-8xl z-10 text-neutral-100">Alaska</h1>
 

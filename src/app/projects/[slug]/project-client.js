@@ -159,7 +159,7 @@ export default function ProjectClient({ project, nextProject, prevProject }) {
       <div className="">
         <div
           ref={projectNavRef}
-          className="fixed top-0 left-1/2 -translate-x-1/2 w-full md:w-[50vw]  flex justify-between gap-2 p-1 z-10"
+          className="fixed top-0 left-1/2 -translate-x-1/2 w-full md:w-[50vw]  flex justify-between gap-2 p-2 z-10"
         >
           <Link
             href={`/projects/${prevProject.slug}`}
